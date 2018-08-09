@@ -1,0 +1,15 @@
+    .mainC {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000;
+        list-style: none;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    li {
+        padding: 20px;
+        background: #000;
+        border-top: 1px solid #fff;
+        color: #fff;
+    }
