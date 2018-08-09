@@ -5,6 +5,7 @@
         _this.parent = document.getElementById(obj.parentId);
 
 
+
         _this.parent.addEventListener('drag', function(event) {
             if(event.target.draggable){
                 draggableNode = event.target;
@@ -35,6 +36,8 @@
             event.target.style.backgroundColor = "#000000";
         });
 
+
+        // drop event
         _this.parent.addEventListener("drop", function(event) {
             event.preventDefault();
             draggableNode.style.backgroundColor = "#000000";
